@@ -11,3 +11,7 @@ $('[data-toggle=collapse]').click(function (e) {
   $('[data-toggle=collapse]').parent('li').removeClass('active');
   $(this).parent('li').toggleClass('active');
 });
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})

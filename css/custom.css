@@ -23,8 +23,9 @@
     text-align:center;
 }
 
-/*change breadcrumb separator to raquo symbol*/
+/*change breadcrumb separator greater than symbol*/
 .breadcrumb > li + li:before {
      content: "\003E";	/* 00BB for >> */
      color: #aaa;
 }
+
